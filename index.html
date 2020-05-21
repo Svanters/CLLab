@@ -12,38 +12,51 @@
       border: 1px Solid blue;
         padding: 15px;
     }
+    .paragraph {
+      font-size: 40px;
+    }
+    .menu {
+      width: 25%;
+      float: left;
+      padding: 15px;
+    }
+    .main {
+      width: 76%;
+      float: left;
+      padding: 15px;
+    }
     .big {
       font-size: 40px;
     }
     </style>  
   <body>
     <div class="header">
-    <h1>Hallow world!</h1>
+      <h1>Hallow world!</h1>
     </div>      
-    <p>This is just beginning..</p>
-    <ol>
-      <li>Build IoT node</li>
-      <li>Post sensor data</li>
-      <li>Set ThingSpeak chanel</li>
-      <li>Matlab post-processing</li>
-    </ol>
+      <p>This is just beginning..</p>
+      <ol class="menu">
+       <li>Build IoT node</li>
+       <li>Post sensor data</li>
+       <li>Set ThingSpeak chanel</li>
+       <li>Matlab post-processing</li>
+      </ol>
     <div>
-      <p id="big">IoT node</p>
-      <ol>
+      <p class="paragraph">IoT node</p>
+      <ol class="main">
         <li>Arduino</li>
         <li>Sensors</li>
         <li>Gateway</li>
       </ol>  
     </div>
     <div>
-    <p id="big">Post data with Wifi/GSM/Bluetooth</p>
+      <p class="paragraph">Post data with Wifi/GSM/Bluetooth</p>
     </div>
     <div>
-    <p id="big">My chanel</p>
-    <a href="https://thingspeak.com/channels/642005">Soilwater Chanel</a>
+      <p class="paragraph">My chanel</p>
+        <a  class="main" href="https://thingspeak.com/channels/642005">Soilwater Chanel</a>
     </div>
     <div>
-    <p id="big">Matlab code</p>
+      <p class="paragraph">Matlab code</p>
     </div>
   </body>
 </html>
