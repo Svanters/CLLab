@@ -20,7 +20,7 @@
   }
   .topic {
       padding: 15px;
-      font-size: 32px;
+      font-size: 26px;
   }
   #sidebar_left{
 　   background-color: "#FFECC9";
@@ -57,6 +57,7 @@
      width: 80px;
 　   text-align: center;
      align: right;
+     float: right;
   }
   #footer{
 　   clear: both;
@@ -70,14 +71,14 @@
      font-size: 12px;
      text-align: center;
   </style>
-  <body>
-  <div id="sitebody"></div>
-　 <div id="header">
+<body>
+<div id="sitebody">
+　<div id="header">
     <h1>Hallow world!</h1>
-    <span class="topic">This is just beginning..</span>
-   </div>
+     <span class="topic">This is just beginning..</span>
+  </div>
    <hr color="#ff8000"><hr>
-   <tr><td>
+ <div>
    <div id="sidebar_left">Sidebar_left
      <div>
       <ol class="menu">
@@ -87,8 +88,8 @@
        <li>Matlab post-processing</li>
       </ol>
      </div>
-    </div>
-    <div id="content">Content
+   </div>
+   <div id="content">Content
      <div>
       <p class="paragraph">§IoT node</p>
       <ol class="main">
@@ -101,8 +102,10 @@
         <a  class="main" href="https://thingspeak.com/channels/642005">Soilwater Chanel</a>
       <p class="paragraph">§Matlab code</p>
      </div>
-　  </div>
-    <div id="sidebar_right">Sidebar_right</div>
+   </div>
+   <div id="sidebar_right">Sidebar_right
+   </div>
+ </div>
     <hr color="#ff8000"><hr>
 　  <div id="footer">Footer
      <div>
@@ -112,5 +115,6 @@
      </td></tr>
      </div>
    </div>
-  </body>
+  </div>
+</body>
 </html>
